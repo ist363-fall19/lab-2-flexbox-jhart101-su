@@ -1,1 +1,35 @@
 body {font:18px/1.25 'Arial', sans-serif; }
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.tweet-list{
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: .15;
+    
+}
+.tweet-item{
+    margin: 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    width: .33;
+    
+}
+.tweet-header{
+    display: flex;
+    align-items: row;
+}
+img{
+    margin-right: 10px;
+    
+    I DID A BUNCH FOR LIKE TWO HOURS AND CANNOT GET THE THREE TO ALIGN I AM TAKING THE L

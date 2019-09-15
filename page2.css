@@ -1,0 +1,36 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 100px;
+    background-color: peachpuff;
+
+}
+footer{
+    height: 200px;
+    background-color: slategray;
+}
+.content{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+.stuff{
+    background-color: rgb(241, 231, 231);
+    margin: 10px;
+    border: 3px solid slategray;
+}
+.big{
+    flex: 66%;
+}
+.side{
+    flex: 33%;
+}

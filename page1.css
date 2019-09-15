@@ -1,0 +1,68 @@
+.flex{
+    display: flex;
+    flex-direction : row;
+}
+.flex-item{
+    height: 200px;
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: black;
+}
+.flex-1{
+    justify-content: space-between;
+}
+.blue{
+    background-color: skyblue;
+}
+.red{
+    background-color: lightcoral;
+}
+.bigger{
+    width: 150%;
+}
+.purple{
+    background-color: purple;
+}
+.flex-2{
+    justify-content: space-between;
+}
+.green{
+    background-color: seagreen;
+    width: 33%;
+}
+.flex-3{
+    justify-content: center;
+}
+.tan{
+    background-color: tan;
+    flex: .33;
+}
+.flex-4{
+    justify-content: space-around;
+}
+.grey{
+    background-color: grey;
+    flex: .25;
+}
+.flex-5{
+    justify-content: flex-end;
+}
+.teal{
+    background-color: teal;
+    flex: .15;
+}
+.yellow{
+    background-color: palegoldenrod;
+    
+}
+.half{
+    flex: .5;
+}
+.yeet{
+    flex: .25;
+
+}
